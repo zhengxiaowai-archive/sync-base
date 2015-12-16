@@ -1,0 +1,15 @@
+{
+    "manifest_version" : 2,
+    "name" : "厘米脚印",
+    "version" : "0.1",
+    "description" : "同步base项目",
+    "browser_action": {
+            "default_icon": "images/icon16.png",
+            "default_title": "厘米脚印",
+            "default_popup": "popup.html"
+        },
+    "permissions": [
+        "https://api.getbase.com/*",
+        "http://*.limijiaoyin.com/api/*"
+    ]
+}
