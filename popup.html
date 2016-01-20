@@ -5,19 +5,33 @@
     <title>Document</title>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/underscore-min.js"></script>
+    <script src="js/common.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/popup.css">
 </head>
 <body>
-    <div>
-        <label>同步项目</label>
-    </div>
-    
-    <div>
-        <button type="button" class="btn btn-default" id="btn-sync"><span id="btn-val">同步</span></button>
+    <div class="" ="mian">
+        <div class="col-lg-6">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Address" id="input-address">
+                <span class="input-group-btn">
+                    <button class="btn btn-success" type="button" id="address">保存</button>
+                </span>
+            </div>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Token" id="input-token">
+                <span class="input-group-btn">
+                    <button class="btn btn-success" type="button" id="token">保存</button>
+                </span>
+            </div>
+            <div class="sync">
+                <button class="btn btn-primary btn-block" type="button" id="btn-sync"><span id="btn-val">同步</span></button>
+            </div>
+          </div>
+        
+        
     </div>
     <script src="js/poput.js"></script>
-    <!-- <button type="button" class="btn btn-success">成功</button> -->
-    <!-- <button type="button" class="btn btn-danger">危险</button> -->
 </body>
 </html>
